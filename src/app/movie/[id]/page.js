@@ -10,7 +10,7 @@ export default async function MoviePage({ params }) {
 
   return (
     <div className="p-8">
-      <div className="flex flex-col md:flex-row gap-4 pt-[150px] items-center md:items-start">
+      <div className="flex flex-col md:flex-row gap-4 pt-[150px] justify-center items-center md:items-start">
         {data.Poster && data.Poster !== "N/A" && (
           <img
             src={data.Poster}
