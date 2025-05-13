@@ -77,7 +77,7 @@ export default function Page2() {
             href="/components/page1"
             className="text-white px-4 py-2 rounded hover:bg-gray-500 transition"
           >
-            Página 1
+            Saludos a Fox
           </Link>
         </div>
       </div>

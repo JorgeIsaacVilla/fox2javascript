@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import MovieList from "./components/movieList"
 
 const images = [
   "https://static1.srcdn.com/wordpress/wp-content/uploads/wm/2023/06/miles-morales-spider-man-across-the-spiderverse.jpg",
@@ -46,6 +47,10 @@ export default function Home() {
       </div>
 
       <br />
+
+      {/* Lista de películas */}
+      <MovieList />
+
     </section>
   );
 }
